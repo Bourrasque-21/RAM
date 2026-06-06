@@ -2,7 +2,7 @@
 
 ## Overview
 
-SystemVerilog로 구현한 256 x 16-bit Single-Port Synchronous RAM 설계임. 동일한 주소에서 read와 write가 발생할 때의 출력 방식에 따라 Read-First와 No-Change 두 가지 RAM 동작을 구현함.
+SystemVerilog로 구현한 256 x 16-bit Single-Port Synchronous RAM. 동일한 주소에서 read와 write가 발생할 때의 출력 방식에 따라 Read-First와 No-Change 두 가지 RAM 동작을 구현함.
 
 각 RAM 설계는 UVM testbench를 통해 read/write 동작, 동일 주소 접근 및 출력 데이터 유지 동작을 검증함.
 
